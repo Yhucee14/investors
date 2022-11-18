@@ -1,0 +1,8 @@
+#btnstyle{
+    margin-right: 20px;
+    text-transform: none;
+    color: var( --color-white);
+    box-shadow:  0px 0px 2px 2px  #d72a2ada;
+    
+}
+
