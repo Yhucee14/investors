@@ -1,11 +1,15 @@
 import React from 'react'
 import './Container.css';
-import Navbar from '../Navbar/Navbar'
+
+import Carousel from '../Carousel/Carousel'
 
 const Container = () => {
   return (
     <div className='container'>
-        <Navbar />
+        
+        
+        <Carousel />
+
     </div>
   )
 }

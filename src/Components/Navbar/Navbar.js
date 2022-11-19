@@ -8,8 +8,7 @@ const Navbar = () => {
   return (
     <div>
         <AppBar sx={{
-    bgcolor: '#071121',
-    marginTop: 2,
+    bgcolor: 'transparent',
 
 }}>
    <Toolbar sx={{
@@ -30,7 +29,7 @@ const Navbar = () => {
            <Button variant='outlined' id='btnstyle' size='small'>About</Button>
        </Stack>
 
-       <div>
+       <main>
        <Button variant='outlined' size='small' sx={{
            bgcolor: '#d72a2ada',
            borderRadius: 1,
@@ -39,10 +38,9 @@ const Navbar = () => {
        }}>
            Login
        </Button>
-       </div>
+       </main>
      
 
-      
      
    </Toolbar>
  
