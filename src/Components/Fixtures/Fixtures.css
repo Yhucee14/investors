@@ -1,0 +1,30 @@
+.fixcon{
+    text-align: center;
+    padding: 10px;
+    background: #071121;
+    color:  #fff;
+    width: 100%;
+}
+
+.fixcard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardone{
+    background: rgba(0, 0, 0, 0.3);box-shadow: 0 3px 5px 0px #d72a2ada ;
+    padding: 10px;
+}
+
+.cardtwo{
+    background: rgba(0, 0, 0, 0.3);box-shadow: 0 3px 5px 0px #d72a2ada ;
+    padding: 10px;
+}
+
+.formgreen {
+    color: green;
+}
+
+.formred {
+    color: #d72a2ada;
+}
