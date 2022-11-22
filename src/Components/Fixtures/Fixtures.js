@@ -6,7 +6,7 @@ import logo from '../Assets/logo.jpg';
 const Fixtures = () => {
   return (
     <div className='fixcon'>
-         <Typography variant='h4' sx={{ color: '#d72a2ada',}} >
+         <Typography variant='h6' sx={{ color: '#d72a2ada',}} >
             Fixtures
         </Typography><br></br>
 

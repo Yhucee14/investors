@@ -1,0 +1,38 @@
+.signupcon{
+    padding: 40px;
+    color: #fff;
+    background-color: #071121;
+    justify-content: center;
+}
+
+.cardcontent{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+    
+}
+
+.cardcon{
+    background-color: #071121;
+    color: #fff;
+    padding: 40px;
+    
+    
+}
+
+.textcon{
+    background-color: #fff;
+    color:  #071121;
+    border-radius: 5px;
+}
+
+.cardcov{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    box-shadow: 0 3px 5px 0px #d72a2ada ;
+}
+
+#already {
+    text-align: center;
+}
