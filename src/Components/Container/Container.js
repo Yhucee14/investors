@@ -5,6 +5,7 @@ import Fixtures from '../Fixtures/Fixtures';
 import Squad from '../Squad/Squad';
 import About from '../About/About';
 import Signup from '../Signup/Signup';
+import Login from '../Login/Login';
 
 const Container = () => {
   return (
@@ -16,6 +17,7 @@ const Container = () => {
         <Squad />
         <About />
         <Signup />
+        <Login />
 
     </div>
   )

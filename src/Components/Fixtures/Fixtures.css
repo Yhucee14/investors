@@ -1,8 +1,9 @@
 .fixcon{
     text-align: center;
     padding: 20px;
-    background: #071121;
-    color:  #fff;
+    /* background: #071121;
+    color:  #fff; */
+    background: rgba(94, 47, 47, 0.36);
 }
 
 .fixcard{
@@ -14,11 +15,14 @@
     /* background: rgba(0, 0, 0, 0.3); */
     box-shadow: 0 3px 5px 0px #d72a2ada ;
     padding: 10px;
+    background: #071121;
+    color: #fff;
 }
 
 .cardtwo{
     /* background: rgba(0, 0, 0, 0.3); */
-    
+    background: #071121;
+    color: #fff;
     box-shadow: 0 3px 5px 0px #d72a2ada ;
     padding: 10px;
 }

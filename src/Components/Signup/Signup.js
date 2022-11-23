@@ -28,20 +28,20 @@ const genders = [
         <Card className='cardcov'>
             <CardContent className='cardcon'>
                 <Grid container spacing={1} >
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' label="First Name" placeholder='Enter first name' variant='outlined' fullWidth required className='textcon'/>
                     </Grid>
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' label="Last Name" placeholder='Enter Last name' variant='outlined' fullWidth required className='textcon'/>
                     </Grid>
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' label="Email" placeholder='Enter Email' variant='outlined' fullWidth required className='textcon'/>
                     </Grid> 
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' label="Phone Number" placeholder='Enter Phone Number' variant='outlined' fullWidth required className='textcon'/>
                     </Grid>
 
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' id="outlined-select-gender"
           select
           value={gender}
@@ -57,11 +57,11 @@ const genders = [
           
                     </Grid>
 
-                    <Grid xs={12} sm={6} lg={12} item className='cardcontent'>
+                    <Grid xs={12} sm={12} lg={12} md={12} item className='cardcontent'>
                         <TextField size='small' label="Password" placeholder='Create a strong password' variant='outlined' fullWidth required className='textcon'/>
                     </Grid>
 
-                    <Grid xs={12} sm={12} lg={12} item>
+                    <Grid xs={12} sm={12} lg={12} md={12} item>
                       <Typography id='already'>Already registered?, Click here to Login</Typography>
 
                     </Grid>

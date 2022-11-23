@@ -2,7 +2,6 @@
     padding: 40px;
     color: #fff;
     background-color: #071121;
-    justify-content: center;
 }
 
 .cardcontent{
@@ -27,9 +26,9 @@
 }
 
 .cardcov{
-    width: 50%;
+    width: 40%;
     position: relative;
-    left: 25%;
+    left: 30%;
     box-shadow: 0 3px 5px 0px #d72a2ada ;
 }
 
