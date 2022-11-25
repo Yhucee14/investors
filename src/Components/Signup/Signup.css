@@ -35,3 +35,9 @@
 #already {
     text-align: center;
 }
+
+#clicklog{
+    text-transform: none;
+    color:  #d72a2ada;
+    text-decoration: none;
+}

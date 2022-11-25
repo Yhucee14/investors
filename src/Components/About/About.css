@@ -1,10 +1,11 @@
 .aboutcon{
-    padding: 40px;
-    border-top: 1px solid #f82121;
+    padding-top: 40px;
     color: black;
+    height: 50vw;
+        
 }
 
 .highone{
     background-color: #8080802b;
     padding: 5px;
-}
+}                                                                   

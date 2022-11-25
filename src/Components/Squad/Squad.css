@@ -3,6 +3,16 @@
     padding: 20px;
     background: #071121;
     color:  #fff;
-    width: 100%;
-    border-top: 1px solid #f82121;
+    height: 100%;
+    padding-top: 90px;
 }
+
+.cardbox{
+    padding: 10px;
+}
+
+.cardcon{
+    background: #fff;
+    color: #071121;
+}
+

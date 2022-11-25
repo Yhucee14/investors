@@ -2,6 +2,7 @@ import React from 'react'
 import './Signup.css';
 import {Typography, Card, CardContent,Grid, TextField, Button} from '@mui/material';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
 const genders = [
     {
@@ -62,7 +63,7 @@ const genders = [
                     </Grid>
 
                     <Grid xs={12} sm={12} lg={12} md={12} item>
-                      <Typography id='already'>Already registered?, Click here to Login</Typography>
+                      <Typography id='already'> Already registered?, <Link to="/Login" id='clicklog'>Click here to Login </Link></Typography>
 
                     </Grid>
 
