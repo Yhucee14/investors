@@ -1,10 +1,20 @@
 import React from 'react'
 import './Login.css';
 import {Typography, Card, CardContent,Grid, TextField, Button} from '@mui/material';
+import Navbar from '../Navbar/Navbar';
+import child from '../Assets/child.jpeg'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
     <div className='logincon'>
+        <Navbar />
+         
+         <div>
+         <img src={child} alt="logo" className='loginimg'/>
+         </div>
+       
+
        <Typography variant='h6' align='center'>Welcome, Please Login to continue</Typography> <br></br>
 
        <Card className='cardcov'>
@@ -17,6 +27,9 @@ const Login = () => {
                         <TextField size='small' label="Password" placeholder='Enter Password' variant='outlined' fullWidth required className='textcon'/>
                     </Grid>
                     <Grid xs={12} item> 
+
+                    <Typography size='small' align='center' sx={{fontSize: "14px",}} >Forgotten Password?, <Link className='forgot'> Click here </Link></Typography><br></br>
+
                    <Button variant='contained' sx={{
            bgcolor: '#d72a2ada',
            borderRadius: 1,

@@ -1,11 +1,16 @@
 .aboutcon{
-    padding-top: 40px;
+    padding: 1px;
     color: black;
-    height: 50vw;
-        
+    /* height: 50vw;   */
+    display: block;
 }
 
 .highone{
     background-color: #8080802b;
     padding: 5px;
-}                                                                   
+}               
+
+.imgcon{
+    height: 50vh;
+    width: 100%;
+}

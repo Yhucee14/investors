@@ -1,5 +1,27 @@
 .logincon{
-    padding: 40px;
+    padding-bottom: 15px;
     color: #fff;
     background-color: #071121;
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* .cardcov{
+    width: 40%;
+    left: 30%;
+    box-shadow: 0 3px 5px 0px #d72a2ada ;
+} */
+
+/* .cardcon{
+    width: 80%;
+    box-shadow: 0 3px 5px 0px #d72a2ada ;
+} */
+
+.loginimg{
+    width: 100%;
+}
+
+.forgot{
+    color: red;
+    text-decoration: none;
 }

@@ -76,7 +76,7 @@ const genders = [
            borderRadius: 1,
            textTransform: 'none',
            color: '#fff',
-       }} fullWidth required><b>SIGNUP</b></Button>
+       }} fullWidth required><Link to="/Container" className='sign'>SIGNUP</Link></Button>
         </Grid>
 
                 </Grid>

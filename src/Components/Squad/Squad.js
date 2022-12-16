@@ -2,8 +2,9 @@ import React from 'react'
 import './Squad.css';
 import { Box, Card, CardContent, Typography, CardMedia} from "@mui/material";
 import card1 from '../Assets/post.jpg';
-import Grid from '@mui/material//Grid';
+import Grid from '@mui/material/Grid';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 
 const Squad = () => {
@@ -78,7 +79,7 @@ const Squad = () => {
   <Typography variant='h6'>(Our Players)</Typography><br></br>
 
   <Grid container rowSpacing={1} columnSpacing={{ xs: 8, sm: 2, md: 2}} className='gridcon'> 
-  <Grid item sm={4} lg={4} md={4}>
+  <Grid item sm={4} lg={4} md={4} >
   <Box className='cardbox' >
          <Card className='card'>
             <CardMedia className='cardmed'
@@ -88,7 +89,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Coach description
+                  Player Description
                 </Typography>
             
             </CardContent>
@@ -106,7 +107,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Assistant Coach description
+                  Player description
                 </Typography>
             
             </CardContent>
@@ -124,7 +125,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Director description
+                Player description
                 </Typography>
             
             </CardContent>
@@ -142,7 +143,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Coach description
+                Player description
                 </Typography>
             
             </CardContent>
@@ -160,7 +161,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Assistant Coach description
+                Player description
                 </Typography>
             
             </CardContent>
@@ -178,7 +179,7 @@ const Squad = () => {
             alt='unsplash'/>
             <CardContent className='cardcon'>
                 <Typography>
-                  Director description
+                Player description
                 </Typography>
             
             </CardContent>
@@ -186,6 +187,8 @@ const Squad = () => {
          </Box>
   </Grid>
   </Grid>
+
+  <Footer />
 
     </div>
    

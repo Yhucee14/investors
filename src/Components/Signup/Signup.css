@@ -26,9 +26,9 @@
 }
 
 .cardcov{
-    width: 40%;
+    width: 80%;
     position: relative;
-    left: 30%;
+    left: 10%;
     box-shadow: 0 3px 5px 0px #d72a2ada ;
 }
 
@@ -39,5 +39,10 @@
 #clicklog{
     text-transform: none;
     color:  #d72a2ada;
+    text-decoration: none;
+}
+
+.sign{
+    color:#fff;
     text-decoration: none;
 }

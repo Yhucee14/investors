@@ -1,0 +1,66 @@
+.sicons-cov{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.footercov{
+    background: #071121;
+    display: flex;
+    justify-content: center;
+}
+
+.sicons{
+    padding: 7px ;
+    background-color: #22365659;
+}
+
+#icon{
+    margin-left: 10px;
+    border-radius: 50%;
+    background: #22365659;
+}
+
+.foot-btn{
+    padding: 7px ;
+    margin-top: 18px;
+}
+
+#redbtn{
+    margin-left: 15px;
+}
+
+#bluebtn:hover {
+    background: #d72a2ada;
+    color: #22365659;
+}
+
+#icon:hover {
+    background: #d72a2ada;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .foot-btn{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sicons-cov{
+        margin-left: 20px;
+    }
+    .foot-btn{
+        margin-left: 58px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .foot-btn{
+        margin-left: 28px;
+    }
+
+    .sicons-cov{
+        margin-left: -10px;
+    }
+}

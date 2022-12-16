@@ -26,8 +26,8 @@ section {
 .content{
     position: absolute;
     top: 30rem;
-    left: 5rem;
-    width: 50%;
+    left: 4rem;
+    width: 60%;
     height: 20%;
    padding: 1rem;
     background: rgba(0, 0, 0, 0.3);

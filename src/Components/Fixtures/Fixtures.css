@@ -1,30 +1,35 @@
 .fixcon{
     text-align: center;
-    padding: 20px;
-    /* background: #071121;
-    color:  #fff; */
-    background: rgba(94, 47, 47, 0.36);
+    padding: 2px;
+    background: #071121f8;
+    color:  #fff;
+    /* background-color: #8080802b; */
+    margin-top: 10px; 
+    
 }
 
 .fixcard{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .cardone{
-    /* background: rgba(0, 0, 0, 0.3); */
-    box-shadow: 0 3px 5px 0px #d72a2ada ;
+    /* background: rgba(128, 128, 128, 0.52);
+    box-shadow: 0 3px 5px 0px #d72a2ada ; */
     padding: 10px;
-    background:  #071121;
-    color: #fff;
+    /* background:  #071121;
+    color: #fff; */
+    border: 1px solid black;
 }
 
 .cardtwo{
     /* background: rgba(0, 0, 0, 0.3); */
-    background: #071121;
+    /* background: #071121;
     color: #fff;
-    box-shadow: 0 3px 5px 0px #d72a2ada ;
+    box-shadow: 0 3px 5px 0px #d72a2ada ; */
     padding: 10px;
+    border: 1px solid black;
 }
 
 .formgreen {
@@ -33,4 +38,35 @@
 
 .formred {
     color: #d72a2ada;
+}
+
+.imgcon{
+    height: 500px;
+    width: 100%;
+}
+
+.formcon{
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .fixcard{
+        display: block;
+        padding: 12px;
+    }
+
+    .cardone{
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fixcard{
+        display: block;
+        padding: 12px;
+    }
+
+    .cardone{
+        padding-bottom: 5px;
+    }
 }

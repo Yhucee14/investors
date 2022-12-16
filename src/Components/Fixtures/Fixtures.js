@@ -2,11 +2,17 @@ import React from 'react'
 import {Typography, IconButton} from "@mui/material";
 import "./Fixtures.css";
 import logo from '../Assets/logo.jpg';
+import child from '../Assets/child.jpeg'
+import Navbar from '../Navbar/Navbar';
 
 const Fixtures = () => {
   return (
     <div className='fixcon'>
-         <Typography variant='h6' sx={{ color: '#d72a2ada',}} >
+      <Navbar /> <br></br><br></br>
+       <div >
+          <img src={child} alt="logo" className='imgcon'/>
+      </div>
+         <Typography variant='h6' sx={{ color: '#d72a2ada'}} >
             Fixtures
         </Typography><br></br>
 
@@ -15,9 +21,9 @@ const Fixtures = () => {
         <div className='cardone'><span className='formred'>Last Game:</span> <br></br>
         <IconButton size='small' edge='start' aria-label='logo'>
        <img src={logo} alt="logo" width={25} />  
-       </IconButton> <b variant='h6' sx={{color: '#fff', paddingLeft: '2px'}}>Investors FC <b className='formgreen'>7</b></b>
+       </IconButton>Investors FC <b className='formgreen'>7<b/></b>
        
-        <b variant='h6' sx={{color: '#fff', paddingLeft: '2px'}}>-<b className='formgreen'>0 </b>Destiny Lodge</b>
+        -0  Destiny Lodge
        <IconButton size='small' edge='end' aria-label='logo'>
        <img src={logo} alt="logo" width={25} /> 
       
@@ -26,14 +32,14 @@ const Fixtures = () => {
 
         </div>
 
-        <Typography>Form: <b className='formgreen'>W W</b> <b className='formred'>L L</b> D </Typography>
+        <Typography className='formcon'>Form: <b className='formgreen'>W W</b> <b className='formred'>L L</b> D </Typography>
 
         <div className='cardtwo'> <span className='formred'>Next Game:</span> <br></br>
         <IconButton size='small' edge='start' aria-label='logo'>
        <img src={logo} alt="logo" width={25} />  
-       </IconButton> <b variant='h6' sx={{color: '#fff', paddingLeft: '2px'}}>Investors FC <b className='formgreen'>0</b></b>
+       </IconButton> Investors FC 0
        
-        <b variant='h6' sx={{color: '#fff', paddingLeft: '2px'}}>-<b className='formgreen'>0 </b>Unknown</b>
+        -0 Unknown
        <IconButton size='small' edge='end' aria-label='logo'>
        <img src={logo} alt="logo" width={25} /> 
       
@@ -43,6 +49,8 @@ const Fixtures = () => {
         </div>
 
     </div>
+
+  
 
     </div>
   )
