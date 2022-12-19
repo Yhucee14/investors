@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import logo from '../Assets/logo.jpg';
-import {AppBar, Toolbar, IconButton, Stack, Button, Typography} from '@mui/material';
+import {AppBar, Toolbar, IconButton, Button, Typography} from '@mui/material';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import {AiOutlineBars} from "react-icons/ai";
