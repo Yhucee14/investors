@@ -27,33 +27,38 @@ const Navbar = () => {
    display: 'flex',
    justifyContent: 'space-between',
 }}>
+        <Link to="/Container" id='linkbtn'>
        <IconButton size='small' edge='start' aria-label='logo'>
        <img src={logo} alt="logo" width={45} /> 
+
        <Typography variant='h6' sx={{color: '#fff', paddingLeft: '2px'}}>Investors <span size='small' id='fc'>FC</span></Typography>
-       </IconButton>
+       </IconButton> </Link>
        
        
         <div className="nav-links" id={showMenu ? "nav-link-mobile" : "nav-link-mobile-hide"} >
             
-                          <Button variant='outlined' id='btnstyle' size='small' ><Link to="/Container">Home</Link></Button>
+        <Link to="/Container" id='linkbtn'><Button variant='outlined' id='btnstyle' size='small' >Home</Button></Link>
 
-                          <Button variant='outlined' id='btnstyle' size='small'> <Link to="/Squad"> Squad </Link> </Button>
+        <Link to="/Squad" id='linkbtn'><Button variant='outlined' id='btnstyle' size='small'> Squad </Button></Link> 
 
-                          <Button variant='outlined' id='btnstyle' size='small'> <Link to="/Fixtures"> Fixtures </Link></Button>
+        <Link to="/Fixtures" id='linkbtn'><Button variant='outlined' id='btnstyle' size='small'>  Fixtures</Button> </Link>
 
-                          <Button variant='outlined' id='btnstyle' size='small'> <Link to="/About"> About Us</Link></Button>
+        <Link to="/About" id='linkbtn'> <Button variant='outlined' id='btnstyle' size='small'> About Us</Button></Link>
         </div>
        
 
        <main className="navy-links"  id={showMenu ? "nav-link-mobile" : "nav-link-mobile-hide"}>
+        
+        <Link to="/Login" id='linkbtn'>
        <Button variant='outlined' className="navy-links"  size='small' sx={{
            bgcolor: '#d72a2ada',
            borderRadius: 1,
            textTransform: 'none',
            color: '#fff',
-       }}>
-           <Link to="/Login" id='logbtn'>Logout</Link>
-       </Button>
+       }} id='logbtn'>
+           Logout
+       </Button></Link>
+       
        </main>
      
        <div className='menu-icons' onClick={toggleMenu}>

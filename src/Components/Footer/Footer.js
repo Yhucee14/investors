@@ -10,7 +10,7 @@ import Grid from '@mui/material/Grid';
 const Footer = () => {
   return (
     <Grid container className='footercov'>
-        <Grid className='sicons-cov'  sm={6} lg={6} md={6} xs={12}>
+        <Grid className='sicons-cov'>
         <Button className='sicons' id='icon'>
             <AiOutlineYoutube size={33} color = "#fff" />
         </Button>
@@ -28,7 +28,8 @@ const Footer = () => {
         </Button>
         </Grid>
 
-        <Grid className='foot-btn' sm={4} lg={4} md={4} xs={8}>
+        <Grid className='foot-btn' >
+        <Link to="/Login" id='linkbtn'>
         <Button id='bluebtn' sx={{
            bgcolor: '#22365659',
            borderRadius: 1,
@@ -36,9 +37,10 @@ const Footer = () => {
            color: '#fff',
            padding: '5px',
        }} >
-            <Link to="/Login" id='logbtn'>Log In</Link>
-       </Button>
+           Login
+       </Button> </Link>
 
+       <Link to="/Login" id='linkbtn'>
        <Button id='redbtn' sx={{
            bgcolor: '#d72a2ada',
            borderRadius: 1,
@@ -46,8 +48,8 @@ const Footer = () => {
            color: '#fff',
            padding: '5px',
        }} >
-            <Link to="/Login" id='logbtn'>Sign Out</Link>
-       </Button>
+            Sign Out
+       </Button> </Link>
         </Grid>
        
     </Grid>

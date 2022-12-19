@@ -2,6 +2,7 @@
     padding: 40px;
     color: #fff;
     background-color: #071121;
+    height: 100vh;
 }
 
 .cardcontent{
@@ -12,7 +13,7 @@
 }
 
 .cardcon{
-    background-color: #071121;
+    background-color: #091220f6;
     color: #fff;
     padding: 40px;
     
@@ -45,4 +46,22 @@
 .sign{
     color:#fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .cardcov{
+        width: 100%;
+        position: relative;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cardcov{
+        width: 100%;
+        position: relative;
+        top: 1%;
+        left: 1%;
+    }
+
 }

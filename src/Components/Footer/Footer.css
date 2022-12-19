@@ -24,6 +24,7 @@
 .foot-btn{
     padding: 7px ;
     margin-top: 18px;
+    padding-bottom: 10px;
 }
 
 #redbtn{
@@ -32,7 +33,7 @@
 
 #bluebtn:hover {
     background: #d72a2ada;
-    color: #22365659;
+    color: #fff;
 }
 
 #icon:hover {
@@ -41,26 +42,28 @@
 }
 
 @media screen and (max-width: 900px) {
+    .sicons-cov{
+        margin-left: 0px;
+    }
     .foot-btn{
-        margin-top: 8px;
+        margin-left: 2px; 
+        margin-top: 18px;
     }
 }
 
-@media screen and (max-width: 600px) {
-    .sicons-cov{
+/* @media screen and (max-width: 412px) {
+      .sicons-cov{
         margin-left: 20px;
     }
-    .foot-btn{
-        margin-left: 58px;
-    }
-}
+   
+} */
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .foot-btn{
-        margin-left: 28px;
+        margin-left: 2px;
     }
 
     .sicons-cov{
         margin-left: -10px;
     }
-}
+} */

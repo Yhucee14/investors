@@ -63,20 +63,20 @@ const genders = [
                     </Grid>
 
                     <Grid xs={12} sm={12} lg={12} md={12} item>
-                      <Typography id='already'> Already registered?, <Link to="/Login" id='clicklog'>Click here to Login </Link></Typography>
+                      <Typography id='already'> Already registered ?, <Link to="/Login" id='clicklog'>Click here to Login </Link></Typography>
 
                     </Grid>
 
                     
 
 
-                   <Grid xs={12} item> 
+                   <Grid xs={12} item> <Link to="/Container" className='sign'>
                    <Button variant='contained' sx={{
            bgcolor: '#d72a2ada',
            borderRadius: 1,
            textTransform: 'none',
            color: '#fff',
-       }} fullWidth required><Link to="/Container" className='sign'>SIGNUP</Link></Button>
+       }} fullWidth required>SIGNUP</Button></Link>
         </Grid>
 
                 </Grid>
